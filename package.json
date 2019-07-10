@@ -1,0 +1,25 @@
+{
+  "name": "hua-cli",
+  "version": "0.0.1",
+  "description": "my cli ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huauauaa/node-pro.git"
+  },
+  "keywords": [
+    "node",
+    "template"
+  ],
+  "author": "Harvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huauauaa/node-pro/issues"
+  },
+  "homepage": "https://github.com/Huauauaa/node-pro#readme",
+  "bin": {
+    "hua": "./bin/hua.js"
+  },
+  "devDependencies": {
+    "commander": "^2.20.0"
+  }
+}
