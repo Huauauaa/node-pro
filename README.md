@@ -1,4 +1,2 @@
 # node-pro
-node
-
-dev: for testing
+my cli
