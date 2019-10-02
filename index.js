@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');//解析需要遍历的文件夹
-var filePath = path.resolve('./files');
+var filePath = path.resolve('./input');
 const {read} = require('./read');
 const {writeCSV} = require('./csv');
 var result = [];
@@ -27,7 +27,7 @@ const fileDisplay = filePath => {
             if (isFile) {
               console.log(filedir);
               // 读取文件内容
-              const content = read(filedir);
+              const content = read(filedir).join(',');
               result.push(content)
 
               // var content = fs.readFileSync(filedir, 'utf-8');

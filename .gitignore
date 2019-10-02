@@ -11,3 +11,4 @@ yarn.lock
 out
 gen
 /output/
+/input/
