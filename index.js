@@ -38,7 +38,6 @@ const fileDisplay = filePath => {
             }
 
             if (result.length === files.length) {
-              console.log('done', result)
               writeCSV('output/result.csv', result.join(','))
             }
           }
