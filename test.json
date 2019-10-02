@@ -1,0 +1,448 @@
+{
+  Directory: {
+    workbooks: [
+      '/xl/workbook.xml'
+    ],
+    sheets: [
+      '/xl/worksheets/sheet1.xml'
+    ],
+    charts: [],
+    dialogs: [],
+    macros: [],
+    rels: [],
+    strs: [
+      '/xl/sharedStrings.xml'
+    ],
+    comments: [],
+    links: [],
+    coreprops: [
+      '/docProps/core.xml'
+    ],
+    extprops: [
+      '/docProps/app.xml'
+    ],
+    custprops: [
+      '/docProps/custom.xml'
+    ],
+    themes: [
+      '/xl/theme/theme1.xml'
+    ],
+    styles: [
+      '/xl/styles.xml'
+    ],
+    vba: [],
+    drawings: [],
+    TODO: [],
+    xmlns: 'http://schemas.openxmlformats.org/package/2006/content-types',
+    calcchain: '',
+    sst: '/xl/sharedStrings.xml',
+    style: '/xl/styles.xml',
+    defaults: {
+      rels: 'application/vnd.openxmlformats-package.relationships+xml',
+      xml: 'application/xml'
+    }
+  },
+  Workbook: {
+    AppVersion: {
+      appName: 'xl',
+      appname: 'xl',
+      lastEdited: '3',
+      lastedited: '3',
+      lowestEdited: '5',
+      lowestedited: '5',
+      rupBuild: '9302',
+      rupbuild: '9302'
+    },
+    WBProps: {
+      allowRefreshQuery: false,
+      autoCompressPictures: true,
+      backupFile: false,
+      checkCompatibility: false,
+      CodeName: '',
+      date1904: false,
+      defaultThemeVersion: 0,
+      filterPrivacy: false,
+      hidePivotFieldList: false,
+      promptedSolutions: false,
+      publishItems: false,
+      refreshAllConnections: false,
+      saveExternalLinkValues: true,
+      showBorderUnselectedTables: true,
+      showInkAnnotation: true,
+      showObjects: 'all',
+      showPivotChartFilter: false,
+      updateLinks: 'userSet'
+    },
+    WBView: [
+      [
+        Object
+      ]
+    ],
+    Sheets: [
+      [
+        Object
+      ]
+    ],
+    CalcPr: {
+      calcId: '144525',
+      calcid: '144525',
+      concurrentCalc: '0',
+      concurrentcalc: '0',
+      calcCompleted: 'true',
+      calcMode: 'auto',
+      calcOnSave: 'true',
+      fullCalcOnLoad: 'false',
+      fullPrecision: 'true',
+      iterate: 'false',
+      iterateCount: '100',
+      iterateDelta: '0.001',
+      refMode: 'A1'
+    },
+    Names: [],
+    xmlns: 'http://schemas.openxmlformats.org/spreadsheetml/2006/main'
+  },
+  Props: {
+    Author: 'harvey',
+    CreatedDate: 2019-10-02T17
+    :
+    35: 00.000Z,
+    ModifiedDate: 2019-10-02T09
+    :
+    38: 55.000Z,
+    Application: 'WPS Writer',
+    AppVersion: undefined,
+    Company: undefined,
+    DocSecurity: undefined,
+    Manager: undefined,
+    HyperlinksChanged: false,
+    SharedDoc: false,
+    LinksUpToDate: false,
+    ScaleCrop: false,
+    Worksheets: 1,
+    SheetNames: [
+      'Sheet1'
+    ]
+  },
+  Custprops: {
+    KSOProductBuildVer: '1033-1.3.0.1676'
+  },
+  Deps: {},
+  Sheets: {
+    Sheet1: {
+      '!ref': 'A1:C1',
+      A1: [
+        Object
+      ],
+      B1: [
+        Object
+      ],
+      C1: [
+        Object
+      ],
+      '!margins': [
+        Object
+      ]
+    }
+  },
+  SheetNames: [
+    'Sheet1'
+  ],
+  Strings: [
+    {
+      t: 'test',
+      r: '<t>test</t>',
+      h: 'test'
+    },
+    {
+      t: 'foo',
+      r: '<t>foo</t>',
+      h: 'foo'
+    },
+    {
+      t: 'bar',
+      r: '<t>bar</t>',
+      h: 'bar'
+    },
+    Count
+    :
+    '3',
+    Unique
+    :
+    undefined
+  ],
+  Styles: {
+    NumberFmt: [
+      'General',
+      '0',
+      '0.00',
+      '#,##0',
+      '#,##0.00',
+      <4
+      empty
+      items>,
+      '0%',
+      '0.00%',
+      '0.00E+00',
+      '# ?/?',
+      '# ??/??',
+      'm/d/yy',
+      'd-mmm-yy',
+      'd-mmm',
+      'mmm-yy',
+      'h:mm AM/PM',
+      'h:mm:ss AM/PM',
+      'h:mm',
+      'h:mm:ss',
+      'm/d/yy h:mm',
+      <14
+      empty
+      items>,
+      '#,##0 ;(#,##0)',
+      '#,##0 ;[Red](#,##0)',
+      '#,##0.00;(#,##0.00)',
+      '#,##0.00;[Red](#,##0.00)',
+      <1
+      empty
+      item>,
+      '_("$"* #,##0_);_("$"* \\(#,##0\\);_("$"* "-"_);_(@_)',
+      <1
+      empty
+      item>,
+      '_("$"* #,##0.00_);_("$"* \\(#,##0.00\\);_("$"* "-"??_);_(@_)',
+      'mm:ss',
+      '[h]:mm:ss',
+      'mmss.0',
+      '##0.0E+0',
+      '@',
+      <6
+      empty
+      items>,
+      '"上午/下午 "hh"時"mm"分"ss"秒 "',
+      <119
+      empty
+      items>,
+      '_ * #,##0.00_ ;_ * \\-#,##0.00_ ;_ * "-"??_ ;_ @_ ',
+      '_ * #,##0_ ;_ * \\-#,##0_ ;_ * "-"_ ;_ @_ ',
+      <65357
+      empty
+      items>,
+      'General'
+    ],
+    Fonts: [
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ]
+    ],
+    Fills: [
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ]
+    ],
+    Borders: [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ],
+    CellXf: [
+      [
+        Object
+      ]
+    ]
+  },
+  Themes: {},
+  SSF: {
+    '0': 'General',
+    '1': '0',
+    '2': '0.00',
+    '3': '#,##0',
+    '4': '#,##0.00',
+    '9': '0%',
+    '10': '0.00%',
+    '11': '0.00E+00',
+    '12': '# ?/?',
+    '13': '# ??/??',
+    '14': 'm/d/yy',
+    '15': 'd-mmm-yy',
+    '16': 'd-mmm',
+    '17': 'mmm-yy',
+    '18': 'h:mm AM/PM',
+    '19': 'h:mm:ss AM/PM',
+    '20': 'h:mm',
+    '21': 'h:mm:ss',
+    '22': 'm/d/yy h:mm',
+    '37': '#,##0 ;(#,##0)',
+    '38': '#,##0 ;[Red](#,##0)',
+    '39': '#,##0.00;(#,##0.00)',
+    '40': '#,##0.00;[Red](#,##0.00)',
+    '42': '_("$"* #,##0_);_("$"* \\(#,##0\\);_("$"* "-"_);_(@_)',
+    '44': '_("$"* #,##0.00_);_("$"* \\(#,##0.00\\);_("$"* "-"??_);_(@_)',
+    '45': 'mm:ss',
+    '46': '[h]:mm:ss',
+    '47': 'mmss.0',
+    '48': '##0.0E+0',
+    '49': '@',
+    '56': '"上午/下午 "hh"時"mm"分"ss"秒 "',
+    '176': '_ * #,##0.00_ ;_ * \\-#,##0.00_ ;_ * "-"??_ ;_ @_ ',
+    '177': '_ * #,##0_ ;_ * \\-#,##0_ ;_ * "-"_ ;_ @_ ',
+    '65535': 'General'
+  }
+}
