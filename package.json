@@ -21,5 +21,10 @@
   },
   "devDependencies": {
     "commander": "^2.20.0"
+  },
+  "dependencies": {
+    "Blob": "^0.10.0",
+    "BlobBuilder": "^0.10.0",
+    "xlsx": "^0.15.1"
   }
 }
