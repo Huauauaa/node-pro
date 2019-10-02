@@ -1,14 +1,14 @@
 {
-  "name": "hua-cli",
+  "name": "node-pro",
   "version": "0.0.1",
-  "description": "my cli ",
+  "description": "filter excel cols",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Huauauaa/node-pro.git"
   },
   "keywords": [
     "node",
-    "template"
+    "excel"
   ],
   "author": "Harvey",
   "license": "MIT",
@@ -16,15 +16,8 @@
     "url": "https://github.com/Huauauaa/node-pro/issues"
   },
   "homepage": "https://github.com/Huauauaa/node-pro#readme",
-  "bin": {
-    "hua": "./bin/hua.js"
-  },
-  "devDependencies": {
-    "commander": "^2.20.0"
-  },
   "dependencies": {
     "Blob": "^0.10.0",
-    "BlobBuilder": "^0.10.0",
     "xlsx": "^0.15.1"
   }
 }
