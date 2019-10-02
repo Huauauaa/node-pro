@@ -1,9 +1,9 @@
-var fs = require('fs');
-var path = require('path');//解析需要遍历的文件夹
-var filePath = path.resolve('./input');
+const fs = require('fs');
+const path = require('path');//解析需要遍历的文件夹
+const filePath = path.resolve('./input');
 const {read} = require('./read');
 const {writeCSV} = require('./csv');
-var result = [];
+let result = [];
 
 //文件遍历方法
 const fileDisplay = filePath => {
@@ -29,9 +29,6 @@ const fileDisplay = filePath => {
               // 读取文件内容
               const content = read(filedir).join(',');
               result.push(content)
-
-              // var content = fs.readFileSync(filedir, 'utf-8');
-              // console.log(content);
             }
             if (isDir) {
               fileDisplay(filedir);//递归，如果是文件夹，就继续遍历该文件夹下面的文件

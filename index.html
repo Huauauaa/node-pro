@@ -61,7 +61,6 @@ function sheet2blob(sheet, sheetName) {
 }
 
 var sheet = XLSX.utils.aoa_to_sheet(aoa);
-console.log(sheet)
 
 function handleDownloadClick() {
   openDownloadDialog(sheet2blob(sheet), '导出.xlsx');
