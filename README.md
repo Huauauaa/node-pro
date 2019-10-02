@@ -1,11 +1,14 @@
 # Guide
-1. put files in `input` folder
-2. run commander in terminal
+
+## Install
 ```bash
-node index.js
+cd node-pro
+npm i
 ```
-3.check the `output` folder
-    
-    
+
+## Use
+1. put files in `input` folder
+2. run `node index.js` in terminal
+3. check the `output` folder  
     
 
