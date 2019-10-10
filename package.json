@@ -1,23 +1,26 @@
 {
-  "name": "node-pro",
-  "version": "0.0.1",
-  "description": "filter excel cols",
+  "name": "pro",
+  "version": "1.0.0",
+  "description": "pdf2json",
+  "main": "index.js",
+  "dependencies": {
+    "pdf2json": "^1.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Huauauaa/node-pro.git"
   },
   "keywords": [
-    "node",
-    "excel"
+    "pdf2json"
   ],
   "author": "Harvey",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Huauauaa/node-pro/issues"
   },
-  "homepage": "https://github.com/Huauauaa/node-pro#readme",
-  "dependencies": {
-    "Blob": "^0.10.0",
-    "xlsx": "^0.15.1"
-  }
+  "homepage": "https://github.com/Huauauaa/node-pro#readme"
 }
