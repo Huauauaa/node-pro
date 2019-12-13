@@ -2,12 +2,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var express = require("express");
 var app = express();
-app.get('/', function (request, response) {
-    debugger
-    console.log(1);
-    response.send('Hello world.');
-    console.log(2);
+app.get('/users', function (request, response) {
+    response.send([
+        {
+            id: 1
+        }
+    ]);
 });
-app.listen(3000, function () {
-    console.log('app is running on port 3000');
+app.listen(3001, function () {
+    console.log('app is running');
 });
