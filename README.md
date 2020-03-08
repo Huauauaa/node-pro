@@ -20,7 +20,7 @@ yarn add @types/express
 ### coding
 
 ```bash
-tsc
+tsc -w
 node ./build/app/app.js
 
 ```
