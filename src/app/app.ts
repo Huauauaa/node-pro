@@ -12,7 +12,7 @@ app.get('/users', (request, response) => {
     [
       {
         key: '1',
-        name: 'Mike1',
+        name: 'Mike',
         id: 32,
         picture: {
           "large": "https://randomuser.me/api/portraits/men/75.jpg",

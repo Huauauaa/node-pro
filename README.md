@@ -24,6 +24,8 @@ tsc -w
 node ./build/app/app.js
 
 ```
+or
+ ``` yarn start ```
 
 ### debug
 ```
