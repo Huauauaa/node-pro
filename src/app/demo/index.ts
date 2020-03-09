@@ -1,10 +1,10 @@
-import express from 'express';
+import { Request, Response } from 'express';
 
 export default [
   {
     url: '/users',
     method: 'get',
-    callback: (request: express.Request, response: express.Response) => {
+    callback: (request: Request, response: Response) => {
       response.send([
         {
           key: '1',

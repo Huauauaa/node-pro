@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/Huauauaa/node-pro#readme",
   "dependencies": {
-    "@types/express": "^4.17.2",
     "eslint-config-alloy": "^3.6.0",
     "express": "^4.17.1",
     "lint-staged": "^10.0.8",
@@ -30,6 +29,8 @@
     "typescript": "^3.7.3"
   },
   "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.0",
     "@typescript-eslint/eslint-plugin": "^2.22.0",
     "@typescript-eslint/parser": "^2.22.0",
     "eslint": "^6.8.0",
