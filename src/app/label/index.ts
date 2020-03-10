@@ -41,7 +41,7 @@ export default [
     }
   },
   {
-    url: '/intblfml/v1/question/372242/answer',
+    url: '/intblfml/v1/question/372242/answer1',
     method: 'post',
     callback: (request: Request, response: Response) => {
       response.send({});
