@@ -8,7 +8,9 @@
     "start": "tsc -w | npm run nodemon",
     "nodemon": "nodemon ./build/app/app.js",
     "format": "prettier --write 'src/*/*.*'",
-    "eslint": "eslint src --ext .ts"
+    "eslint": "eslint src --ext .ts",
+    "start:graphql": "tsc -w | npm run dev:graphql",
+    "dev:graphql": "nodemon ./build/graphql/server.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,11 @@
   },
   "homepage": "https://github.com/Huauauaa/node-pro#readme",
   "dependencies": {
+    "apollo-server-express": "^2.11.0",
     "eslint-config-alloy": "^3.6.0",
     "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
     "lint-staged": "^10.0.8",
     "nodemon": "^2.0.2",
     "typescript": "^3.7.3"
