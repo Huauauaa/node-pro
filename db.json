@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Jordan",
+      "email": "jordan@gmail.com",
+      "age": 55,
+      "companyId": 1
+    },
+    {
+      "id": 1,
+      "name": "James",
+      "email": "james@gmail.com",
+      "age": 55,
+      "companyId": 0
+    },
+    {
+      "id": 2,
+      "name": "Kobe",
+      "email": "kobe@gmail.com",
+      "age": 55,
+      "companyId": 1
+    },
+    {
+      "id": 4,
+      "name": "John Smith",
+      "email": "john@gmail.com",
+      "age": 55,
+      "companyId": 1
+    }
+  ],
+  "companies": [
+    {
+      "id": 0,
+      "name": "apple",
+      "desc": "this is apple"
+    },
+    {
+      "id": 1,
+      "name": "google",
+      "desc": "this is google"
+    },
+    {
+      "id": 2,
+      "name": "NBA",
+      "desc": "this is NBA"
+    }
+  ]
+}

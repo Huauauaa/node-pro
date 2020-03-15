@@ -1,0 +1,23 @@
+{
+  "name": "node-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port=4444"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huauauaa/node-pro.git"
+  },
+  "keywords": [],
+  "author": "Harvey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huauauaa/node-pro/issues"
+  },
+  "homepage": "https://github.com/Huauauaa/node-pro#readme",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
